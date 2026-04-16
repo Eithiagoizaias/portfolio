@@ -2,22 +2,22 @@ import { Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Heart Disease Prediction",
-    description: "Risk prediction with Streamlit and heart failure outcome analysis through a Power BI dashboard.",
-    tags: ["Streamlit", "Power BI", "Python", "Scikit-learn", "NumPy", "Pandas"],
-    github: "https://github.com",
+    title: "End-to-End Financial Data Pipeline",
+    description: "Financial data pipeline with automated ETL for data ingestion, transformation, and organization, ensuring efficient processing and supporting analytics and decision-making.",
+    tags: ["Python", "SQL", "Airflow", "Streamlit", "PySpark"],
+    github: "https://github.com/Eithiagoizaias/Projeto-Pipeline-de-Dados-Financeiros",
   },
   {
-    title: "Spotify Analytics Pipeline",
-    description: "Real-time streaming pipeline for Spotify-style analytics using Kafka, Airflow, Snowflake, DBT, and Power BI.",
-    tags: ["Kafka", "Airflow", "Snowflake", "dbt", "Power BI"],
-    github: "https://github.com",
+    title: "IT Inventory Control",
+    description: "Interactive dashboard for IT inventory management, providing clear visualization of stock levels, asset tracking, and operational insights to support efficient decision-making.",
+    tags: ["Power BI", "Excel", "Python"],
+    github: "https://github.com/Eithiagoizaias/Dashboard-Controle-Estoque-TI",
   },
   {
-    title: "Vendor IQ",
-    description: "Analytics platform identifying profitable vendors and pricing gaps. Processes 500K+ transactions to optimize margins and inventory.",
-    tags: ["SQL", "Pandas", "Power BI", "Python"],
-    github: "https://github.com",
+    title: "Batch Data Processing",
+    description: "Batch scripting project focused on automating data processing tasks, enabling efficient execution of routines, file handling, and workflow optimization in a lightweight environment.",
+    tags: ["Automation", "Python", "Airflow", "Delta Lake"],
+    github: "https://github.com/Eithiagoizaias/Projeto-Batch",
   },
   {
     title: "Jobsy",

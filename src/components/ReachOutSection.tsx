@@ -1,4 +1,4 @@
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail, Github, Linkedin, Instagram } from "lucide-react";
 
 const ReachOutSection = () => {
   return (
@@ -8,17 +8,17 @@ const ReachOutSection = () => {
         Reach out via email or LinkedIn. I'm open to freelance gigs or full-time roles. Let's chat if you've got something in mind!
       </p>
       <div className="flex items-center gap-3">
-        <a href="mailto:seuemail@gmail.com" className="social-icon hover:text-foreground hover:border-foreground">
+        <a href="mailto:thiago.sizaias@gmail.com" className="social-icon hover:text-gmail hover:border-gmail">
           <Mail className="w-5 h-5" />
         </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-icon hover:text-foreground hover:border-foreground">
+        <a href="https://github.com/Eithiagoizaias" target="_blank" rel="noopener noreferrer" className="social-icon hover:text-foreground hover:border-foreground">
           <Github className="w-5 h-5" />
         </a>
-        <a href="https://www.linkedin.com/in/seu-perfil" target="_blank" rel="noopener noreferrer" className="social-icon hover:text-linkedin hover:border-linkedin">
+        <a href="https://www.linkedin.com/in/eithiagoizaias/" target="_blank" rel="noopener noreferrer" className="social-icon hover:text-linkedin hover:border-linkedin">
           <Linkedin className="w-5 h-5" />
         </a>
-        <a href="#" className="ml-2 px-4 py-2 text-sm border border-border rounded-lg text-muted-foreground hover:text-foreground hover:border-foreground transition-all duration-300">
-          Schedule a meet
+        <a href="https://www.instagram.com/eithiagoizaias" target="_blank" rel="noopener noreferrer" className="social-icon hover:text-instagram hover:border-instagram">
+          <Instagram className="w-5 h-5" />
         </a>
       </div>
     </section>
