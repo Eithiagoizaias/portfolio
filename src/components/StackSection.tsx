@@ -1,13 +1,16 @@
+import powerbiIcon from "@/assets/powerbi.svg";
+import excelIcon from "@/assets/excel.svg";
+
 const stackItems = [
   { name: "Python", icon: "https://cdn.simpleicons.org/python" },
   { name: "PySpark", icon: "https://cdn.simpleicons.org/apachespark" },
-  { name: "Airflow", icon: "https://cdn.simpleicons.org/apacheairflow" },
+  { name: "Airflow", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apacheairflow/apacheairflow-original.svg" },
   { name: "Databricks", icon: "https://cdn.simpleicons.org/databricks" },
   { name: "PostgreSQL", icon: "https://cdn.simpleicons.org/postgresql" },
   { name: "MySQL", icon: "https://cdn.simpleicons.org/mysql" },
   { name: "MongoDB", icon: "https://cdn.simpleicons.org/mongodb" },
-  { name: "Power BI", icon: "https://cdn.simpleicons.org/powerbi" },
-  { name: "Excel", icon: "https://cdn.simpleicons.org/microsoftexcel" },
+  { name: "Power BI", icon: powerbiIcon },
+  { name: "Excel", icon: excelIcon },
   { name: "Git", icon: "https://cdn.simpleicons.org/git" },
   { name: "Docker", icon: "https://cdn.simpleicons.org/docker" },
   { name: "Postman", icon: "https://cdn.simpleicons.org/postman" },

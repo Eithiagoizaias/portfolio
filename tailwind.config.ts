@@ -51,6 +51,8 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         linkedin: "hsl(var(--linkedin))",
+        gmail: "hsl(var(--gmail))",
+        instagram: "hsl(var(--instagram))",
       },
       borderRadius: {
         lg: "var(--radius)",
