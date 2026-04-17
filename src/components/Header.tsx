@@ -9,6 +9,7 @@ const Header = () => {
       languages: ["en", "pt"],
       globe_color: "#66aaff",
       wrapper_selector: ".gtranslate_wrapper",
+      "flag_size":24,
       alt_flags: { en: "usa", pt: "brazil" },
       globe_size: 24,
     };
