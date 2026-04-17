@@ -52,6 +52,19 @@
     @apply bg-background text-foreground font-sans antialiased;
     font-family: 'Inter', sans-serif;
   }
+
+  /* Hide scrollbar across browsers */
+  html {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+  }
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar,
+  *::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+    width: 0;
+    height: 0;
+  }
 }
 
 @layer components {

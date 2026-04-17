@@ -11,22 +11,24 @@ const ExperienceSection = () => {
           </div>
           <div className="w-px flex-1 bg-border mt-2" />
         </div>
-        <div className="pb-6">
+        <div className="pb-6 flex-1 min-w-0">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-2">
             <div>
-              <h3 className="font-semibold text-foreground">Data Analyst Intern</h3>
-              <p className="text-sm text-muted-foreground">LawLevelUp</p>
+              <h3 className="font-semibold text-foreground">IT Assistant</h3>
+              <p className="text-sm text-muted-foreground">Shopping Vida Group</p>
             </div>
             <div className="text-right">
               <span className="text-xs font-bold text-red-400 tracking-wider">LATEST WORK!</span>
-              <p className="text-sm text-muted-foreground">May 2025 – Aug 2025</p>
+              <p className="text-sm text-muted-foreground">May 2025 – Present</p>
             </div>
           </div>
-          <p className="text-sm text-muted-foreground leading-relaxed">
-            Developed a real-time KPI dashboard in Power BI, integrating predictive analytics to forecast trends 
-            and saving 5+ hours weekly in reporting. Analyzed learning data from 2K+ enrollments to uncover 
-            engagement insights, recommending improvements that boosted learner participation.
-          </p>
+          <ul className="text-sm text-muted-foreground leading-relaxed list-disc pl-5 space-y-1">
+            <li>Supported data extraction, transformation, and loading (ETL) processes for reporting and analytics</li>
+            <li>Built and maintained structured datasets for Power BI dashboards</li>
+            <li>Assisted in data migration and integration using SQL Server</li>
+            <li>Performed data validation and ensured consistency across systems (WMS, sales, and internal platforms)</li>
+            <li>Managed IT assets, user access, and system configurations, maintaining data security and integrity</li>
+          </ul>
         </div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import { Linkedin, Mail } from "lucide-react";
+import profileImg from "@/assets/profile.webp";
 
 const ProfileSection = () => {
   return (
@@ -10,7 +11,7 @@ const ProfileSection = () => {
       }}
     >
       <img
-        src="https://eharshit.cfd/images/profile.jpeg"
+        src={profileImg}
         alt="Thiago Izaias - Data Engineer"
         className="w-24 h-24 rounded-xl object-cover border border-border"
       />
