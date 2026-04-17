@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="sticky top-0 z-50 border-b border-border backdrop-blur-md bg-background/80">
+    <header className="border-b border-border bg-background/80 backdrop-blur-md">
       <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 rounded-full bg-green-500 animate-pulse" />
@@ -10,7 +10,7 @@ const Header = () => {
           <a href="https://github.com/Eithiagoizaias" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Github
           </a>
-          <a href="https://drive.google.com/file/d/1IgRFzFndUCCWt95IrwR5P4skxchf18bs/view?usp=drivesdk" target="_blank" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="https://drive.google.com/file/d/1IgRFzFndUCCWt95IrwR5P4skxchf18bs/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Resume
           </a>
         </nav>
